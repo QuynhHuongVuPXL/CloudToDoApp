@@ -9,7 +9,7 @@ const carrouselRoutes = require('./routes/carrousel.routes');
 
 const app = express();
 
-const db = require('./aws');
+const db = require('./db');
 
 const PORT = process.env.PORT || 3000;
 
